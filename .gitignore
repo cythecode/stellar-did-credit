@@ -10,8 +10,6 @@ node_modules/
 dist/
 coverage/
 **/pkg/
-.env
-.env.local
 .env.*.local
 
 # OS
@@ -27,3 +25,4 @@ Thumbs.db
 # Generated API documentation (produced by cargo doc / typedoc)
 target/doc/
 docs/api/
+config.bat

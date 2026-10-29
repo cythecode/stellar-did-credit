@@ -4,6 +4,6 @@
   "main": "pkg/zk_wasm.js",
   "types": "pkg/zk_wasm.d.ts",
   "scripts": {
-    "build": "wasm-pack build --target nodejs"
+    "build": "node init && wasm-pack build --target nodejs"
   }
 }
